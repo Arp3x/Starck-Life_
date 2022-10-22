@@ -1,0 +1,11 @@
+module.exports.options = {
+    token: '',
+    topicChannels: [
+      'general'
+    ],
+    roles: ["Admin"],
+    servers: [
+        { name: 'Server1', url: 'http://141.95.68.4:40120', alias: 'Starck Life' },
+    ],
+    pollRate: 30,
+};
